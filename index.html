@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>Personal Blog</title>
+</head>
+
+<body>
+    <div class="container">
+        <header class="box-header">
+            <h1 class="header-title">Islam Mansour Blog</h1>
+            <h2 class="header-subtitle">A blog about a (junior) programmer</h2>
+        </header>
+        <nav class="box">
+            <a href="pages/blog-post.html" class="nav-link nav-hide">Latest Post</a>
+            <a href="pages/design.html" class="nav-link nav-hide">Design</a>
+            <a href="#footer" class="nav-link nav-hide">Subscribe now!</a>
+            <div class="nav-sidebar">
+                <div class="sidebar-pages">
+                    <a href="#" class="nav-link">Home</a>
+                    <a href="pages/design.html" class="nav-link">Design</a>
+                </div>
+                <h2 class="sidebar-header">Latest Posts</h2>
+                <ul class="sidebar-list">
+                    <li class="sidebar-list-item"><a href="pages/blog-post.html">My Journey to programming</a></li>
+                    <li class="sidebar-list-item"><a href="pages/blog-post.html">Why web development</a></li>
+                    <li class="sidebar-list-item"><a href="pages/blog-post.html">How to become a front end web
+                            developer</a></li>
+                </ul>
+                <h2 class="sidebar-header">Subscribe to our newsletter</h2>
+                <form class="subscription">
+                    <input class="add-email" type="email" placeholder="subscribe@me.now">
+                    <button class="submit-email" type="button">
+                        <span class="submit-button">Subscribe</span>
+                    </button>
+                </form>
+            </div>
+        </nav>
+        <div class="box" id="main">
+            <div class="box blog-card" id="post-1">
+                <img src="img/journey.jpg" alt="Journey" class=blog-img>
+                <div class="blog-card-text">
+                    <h2 class="blog-title">My Journey to programming</h2>
+                    <h4 class="blog-date">January 10, 2022</h4>
+                    <p>Learn more about <em>how I became a programmer
+                        </em> from scratch.</p>
+                    <a href="pages/blog-post.html" class="button">Read more &rarr;</a>
+                </div>
+            </div>
+            <div class="box blog-card" id="post-2">
+                <img src="img/development.jpeg" alt="Why" class=blog-img>
+                <div class="blog-card-text">
+                    <h2 class="blog-title">Why web development</h2>
+                    <h4 class="blog-date">January 20, 2020</h4>
+                    <p>Learn more about <em>the importance of web development nowadays</em>
+                        and the advantages of having it as a career.</p>
+                    <a href="pages/blog-post.html" class="button">Read more &rarr;</a>
+                </div>
+            </div>
+            <div class="subscription-hide">
+                <h2 class="sidebar-header">Subscribe to our newsletter</h2>
+                <form class="subscription-hide">
+                    <input class="add-email" type="email" placeholder="xxx@example.now">
+                    <button class="submit-email" type="button">
+                        <span class="submit-button">Subscribe</span>
+                    </button>
+                </form>
+            </div>
+        </div>
+        <footer class="box" id="footer">
+            Created by <a href="https://github.com/Islam-cod">Islam Mansour &#128526;</a>
+        </footer>
+    </div>
+</body>
+
+</html>
